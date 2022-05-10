@@ -1,0 +1,205 @@
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #494d55;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+a {
+    color: #3aa7aa;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+    text-decoration: underline;
+    color: #339597;
+}
+a:active {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+.btn,
+a.btn {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.btn .fa,
+a.btn .fa {
+    margin-right: 5px;
+}
+.btn-cta,
+a.btn-cta {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.btn-primary {
+    background: #40babd;
+    border: 1px solid #40babd;
+    color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.hover {
+    background: #3aa7aa;
+    color: #fff;
+    border: 1px solid #3aa7aa;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+    height: 60px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;background: #1c1c1c;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.header .logo {
+    margin: 0;
+    display: inline-block;
+    float: left;
+    font-size: 28px;
+    color: #40babd;
+    padding-top: 12px;
+}
+.header .logo .logo-icon-wrapper {
+    margin-right: 3px;
+    position: relative;
+    display: inline-block;
+    top: -7px;
+    background: #40babd;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    text-align: center;
+}
+.header .logo .logo-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: -4px;
+    margin-top: 7px;
+}
+.header .logo .highlight {
+    font-weight: 800;
+}
+
+.page {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    background: #26282c;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer a {
+    color: #40babd;
+}
+.footer .fa-heart {
+    color: #EA5395;
+}
+
+.header-exit {
+    margin-top: 17px;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+    color: #3aa7aa;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.banner-text {
+    padding-top: 25%; }
+.banner-text h1 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; }
+.banner-text p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 80px; }
+
+.banner-black {
+    background: #0000009c;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.task {
+    margin: 10px;
+    border: 1px solid #b3b3b3;
+    display: table;
+    padding: 15px;
+    border-radius: 15px;
+    width: 450px;
+    max-width: 90%;
+    box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-datetime {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.task-text {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
